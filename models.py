@@ -9,8 +9,8 @@ MODEL_ADMG = TimeseriesSampleGenerator(
         edges=[
             SampleEdge(TimeAwareNodeReference("X", -1), TimeAwareNodeReference("X"), 0.9),
             SampleEdge(TimeAwareNodeReference("X", -1), TimeAwareNodeReference("Y"), 5),
-            SampleEdge(TimeAwareNodeReference("Z", -2), TimeAwareNodeReference("Y"), 1),
-            SampleEdge(TimeAwareNodeReference("Z", -1), TimeAwareNodeReference("Y"), 1),
+            SampleEdge(TimeAwareNodeReference("Z", -2), TimeAwareNodeReference("Y"), 0.5),
+            SampleEdge(TimeAwareNodeReference("Z", -1), TimeAwareNodeReference("Y"), 0.5),
         ],
 
 

@@ -5,5 +5,5 @@ from experiments.relation_variance_quotient import run_experiment as run_relatio
 
 if __name__ == "__main__":
     run_admg_experiment()
-    run_dag_experiment()
+    #run_dag_experiment()
     #run_relation_experiment()
